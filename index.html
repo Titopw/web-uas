@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Football</title>
+</head>
+<body>
+    <div id="exam-container">
+        <h1>Quiz Football</h1>
+        <div id="question-container"></div>
+        <div id="answer-buttons" class="btn-container"></div>
+        <div id="timer">Time Left: <span id="time">0</span> seconds</div>
+        <button id="next-button" class="btn" onclick="nextQuestion()" style="display:none">Next</button>
+        <div id="score-container" style="display: none;">
+            <h2>Your Score: <span id="score">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
